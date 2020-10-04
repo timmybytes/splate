@@ -8,10 +8,7 @@
 
 [SCSS](https://sass-lang.com/documentation/syntax) (Sassy CSS) is a syntax style for SASS (Syntactically Awesome Style Sheets), which is itself an extension language for CSS. What does any of that mean? Webpages and web-based projects are styled with CSS, and while much can be achieved with default CSS, SCSS allows for more dynamic stylesheets that are easier to maintain, while adding deeper programmatic functionality with utilities like variables, modules, nesting, and functions.
 
-<div>
-<img src="scss-color" alt="How SCSS Works Diagram"/>
-<figcaption>How SCSS Works</figcaption>
-</div>
+![How SCSS Works](https://raw.githubusercontent.com/timmybytes/splate/master/scss-color.png)
 
 One of SCSS’s best features is the ability to separate styles into _partials_, allowing you to organize your styles into a more modular filetree that’s easier to work with. SPLATE is a pre-made directory structure for just such a use case.
 
