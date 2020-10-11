@@ -28,3 +28,5 @@ Temporary Items
 
 # Workstation Settings
 .vscode/
+
+node_modules/
