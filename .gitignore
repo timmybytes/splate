@@ -30,3 +30,5 @@ Temporary Items
 .vscode/
 
 node_modules/
+
+*.drawio
