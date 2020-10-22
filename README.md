@@ -18,6 +18,10 @@ One of SCSS’s best features is the ability to separate styles into [_partials_
 
 SCSS needs to be compiled into CSS before it can be recognized by a browser. If you use VS Code, I recommend using the [Live SASS Compiler extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) to compile your SCSS in real-time as you write it. You can also follow this [SASS preprocessing guide](https://www.freecodecamp.org/news/give-more-oompf-to-your-web-garnishes-with-preprocessors-in-sass-bd379226a114/) for compiling from the command line with Node.
 
+To use SPLATE in your project, fork or clone the repo, then add the `/dist/scss` directory into your project. Set your preferred styles in the directory files, compile the SCSS from the `/dist/scss/main.scss` file, and link the subsequent compiled CSS file to your `index.html` file, or wherever you choose to add in your styling.
+
+Future updates will include easy addition into projects, likely from a packaged release.
+
 ## Contributing
 
 I’m not currently looking for contributions to SPLATE. However, if you feel something could be improved, feel free to submit an issue for discussion. Any and all ideas will be considered!
