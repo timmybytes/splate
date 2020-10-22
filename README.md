@@ -11,7 +11,6 @@
 One of SCSS’s best features is the ability to separate styles into [_partials_](https://sass-lang.com/guide#topic-4#), allowing you to organize your styles into a more modular filetree that’s easier to work with. The partials contain small, modular bits of SCSS, which are imported into a main SCSS file before compiling. SPLATE is a pre-made directory structure for just such a use case.
 
 ![How SCSS Works](./src/images/scss-color.png)
->>>>>>> testing-tests
 
 [Learn SASS](https://sass-lang.com/guide)
 
