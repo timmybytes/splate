@@ -29,6 +29,10 @@ Temporary Items
 # Workstation Settings
 .vscode/
 
+<<<<<<< HEAD
 node_modules/
 
 *.drawio
+=======
+/node_modules
+>>>>>>> testing-tests

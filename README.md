@@ -1,6 +1,6 @@
 # SPLATE
 
-![SPLATE header](splate.png)
+![SPLATE header](./src/images/splate.png)
 
 **SPLATE** is an SCSS boilerplate for use in styling frontend web development projects. It’s based on the [7-1](https://sass-guidelin.es/) SCSS format, but adapted to my own needs and preferences. SPLATE keeps your styles neat and tidy, and provides leeway for adding your own custom rules.
 
@@ -10,7 +10,8 @@
 
 One of SCSS’s best features is the ability to separate styles into [_partials_](https://sass-lang.com/guide#topic-4#), allowing you to organize your styles into a more modular filetree that’s easier to work with. The partials contain small, modular bits of SCSS, which are imported into a main SCSS file before compiling. SPLATE is a pre-made directory structure for just such a use case.
 
-![How SCSS Works](https://raw.githubusercontent.com/timmybytes/splate/main/scss-color.png)
+![How SCSS Works](./src/images/scss-color.png)
+>>>>>>> testing-tests
 
 [Learn SASS](https://sass-lang.com/guide)
 
@@ -20,11 +21,11 @@ SCSS needs to be compiled into CSS before it can be recognized by a browser. If 
 
 ## Contributing
 
-I’m not currently looking for contributions to SPLATE, as it’s already geared towards my own uses. However, if you feel something could be improved, feel free to submit an issue for discussion. Any and all ideas will be considered!
+I’m not currently looking for contributions to SPLATE. However, if you feel something could be improved, feel free to submit an issue for discussion. Any and all ideas will be considered!
 
 ## License
 
-This project is licensed under the MIT License. SPLATE is just a bunch of files—fork, tweak, and destroy them as you see fit.
+This project is licensed under the [MIT License](./LICENSE.md). SPLATE is just a bunch of files—fork, tweak, and destroy them as you see fit.
 
 ---
 

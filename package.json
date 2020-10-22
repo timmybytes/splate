@@ -1,0 +1,24 @@
+{
+  "name": "splate",
+  "version": "1.0.0",
+  "description": "Boilerplate SCSS",
+  "main": "index.js",
+  "dependencies": {
+    "sass-true": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp -R src/scss/. dist/scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmybytes/splate.git"
+  },
+  "author": "Timothy Merritt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timmybytes/splate/issues"
+  },
+  "homepage": "https://github.com/timmybytes/splate#readme"
+}
