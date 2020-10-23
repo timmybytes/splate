@@ -30,5 +30,6 @@ This project is licensed under the [MIT License](./LICENSE.md). SPLATE is just a
 
 ### To Do
 
-- Add basic baked-in variables, mixins, etc., to plug root values into
+- Add basic baked-in variables, mixins, etc., to plug root values
+- Add tests
 - Add documentation for compiling

@@ -1,0 +1,61 @@
+////
+/// This is a poster comment.
+/// It will apply annotations to all items from file.
+/// @group Theme
+/// @author Timothy Merritt
+////
+
+// --------------------------------------------------------------------
+/// Colors
+// --------------------------------------------------------------------
+/// Basic color configuration. Core colors taken from timmybytes branding
+/// and a combination of typical defauls from Bootstrap and Material color
+/// schemes.
+/// @group Colors
+///
+$color-brand: hsl(0, 80%, 67%);
+$color-primary: hsl(217, 89%, 61%);
+$color-secondary: hsl(280, 50%, 60%);
+$color-light: hsl(0, 0%, 94%);
+$color-dark: hsl(0, 0%, 11%);
+$color-success: hsl(144, 100%, 39%);
+$color-info: hsl(196, 77%, 55%);
+$color-danger: hsl(0, 100%, 63%);
+$color-warning: hsl(40, 100%, 60%);
+
+// --------------------------------------------------------------------
+// General Sizing
+// --------------------------------------------------------------------
+/// A modular scale for a sizing system. Default system uses a 1.25 (Major Third)
+/// @author Timothy Merritt
+/// @group Theme
+///
+$size-ratio: 1.25;
+$size-base: 16px !default;
+$size-1: $size-2 / $size-ratio;
+$size-2: $size-3 / $size-ratio;
+$size-3: $size-4 / $size-ratio;
+$size-4: $size-base;
+$size-5: $size-4 * $size-ratio;
+$size-6: $size-5 * $size-ratio;
+$size-7: $size-6 * $size-ratio;
+$size-8: $size-7 * $size-ratio;
+$size-9: $size-8 * $size-ratio;
+$size-10: $size-9 * $size-ratio;
+$size-11: $size-10 * $size-ratio;
+$size-12: $size-11 * $size-ratio;
+
+/// --------------------------------------------------------------------
+// Font Families
+/// --------------------------------------------------------------------
+// $font-serif-heading:
+// $font-serif-body:
+
+// $font-sans-heading: 'Fjalla One' // 400
+// $font-sans-body: 'Lato' // 300
+
+// $font-code:
+
+// Typography Sizing
+/// --------------------------------------------------------------------
+$type-base-font-size: 16px !default;
