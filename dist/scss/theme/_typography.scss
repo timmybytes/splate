@@ -1,0 +1,57 @@
+// --------------------------------------------------------------------
+// Font Families
+// --------------------------------------------------------------------
+
+/// @group Typography
+$font-serif: 'Crimson Text', serif;
+/// @group Typography
+$font-sans: 'Lato', sans-serif;
+/// @group Typography
+$font-sans-heading: 'Fjalla One'; // 400
+/// @group Typography
+$font-sans-body: 'Lato'; // 300
+/// @group Typography
+$font-code: 'Source Code Pro', monospace;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-sans-heading;
+}
+
+p {
+  font-family: $font-sans-body;
+}
+
+pre,
+code {
+  font-family: $font-code;
+}
+
+.font-xxsm {
+  font-size: $size-1;
+}
+.font-xsm {
+  font-size: $size-2;
+}
+.font-sm {
+  font-size: $size-3;
+}
+.font-md {
+  font-size: $size-4;
+}
+.font-lg {
+  font-size: $size-5;
+}
+.font-xlg {
+  font-size: $size-6;
+}
+.font-xxlg {
+  font-size: $size-7;
+}
+.font-xxxlg {
+  font-size: $size-8;
+}

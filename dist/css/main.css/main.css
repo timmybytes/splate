@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", "Lato", Arial, sans-serif; }
+
+p {
+  font-family: "Lato", Arial, sans-serif; }
+
+pre,
+code {
+  font-family: "Source Code Pro", monospace; }
+
+.font-xxsm {
+  font-size: 8.192px; }
+
+.font-xsm {
+  font-size: 10.24px; }
+
+.font-sm {
+  font-size: 12.8px; }
+
+.font-md {
+  font-size: 16px; }
+
+.font-lg {
+  font-size: 20px; }
+
+.font-xlg {
+  font-size: 25px; }
+
+.font-xxlg {
+  font-size: 31.25px; }
+
+.font-xxxlg {
+  font-size: 39.0625px; }

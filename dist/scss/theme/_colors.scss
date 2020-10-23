@@ -1,0 +1,42 @@
+// --------------------------------------------------------------------
+// Colors
+// --------------------------------------------------------------------
+// This is the default color palette. These variables can be plugged in
+// anywhere in the SCSS files for easy theming.
+// --------------------------------------------------------------------
+
+/// <div style="background-color: hsl(0, 80%, 67%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
+$color-brand: hsl(0, 80%, 67%);
+
+/// <div style="background-color: hsl(217, 89%, 61%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
+$color-primary: hsl(217, 89%, 61%);
+
+/// <div style="background-color: hsl(280, 50%, 60%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
+$color-secondary: hsl(280, 50%, 60%);
+
+/// <div style="background-color: hsl(0, 0%, 94%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
+$color-light: hsl(0, 0%, 94%);
+
+/// <div style="background-color: hsl(0, 0%, 11%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
+$color-dark: hsl(0, 0%, 11%);
+
+/// <div style="background-color: hsl(144, 100%, 39%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
+$color-success: hsl(144, 100%, 39%);
+
+/// <div style="background-color: hsl(196, 77%, 55%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
+$color-info: hsl(196, 77%, 55%);
+
+/// <div style="background-color: hsl(0, 100%, 63%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
+$color-danger: hsl(0, 100%, 63%);
+
+/// <div style="background-color: hsl(40, 100%, 60%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
+$color-warning: hsl(40, 100%, 60%);
