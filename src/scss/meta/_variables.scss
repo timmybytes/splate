@@ -1,61 +1,115 @@
-////
-/// This is a poster comment.
-/// It will apply annotations to all items from file.
-/// @group Theme
-/// @author Timothy Merritt
-////
+// --------------------------------------------------------------------
+// Colors
+// --------------------------------------------------------------------
+// This is the default color palette. These variables can be plugged in
+// anywhere in the SCSS files for easy theming.
+// --------------------------------------------------------------------
 
-// --------------------------------------------------------------------
-/// Colors
-// --------------------------------------------------------------------
-/// Basic color configuration. Core colors taken from timmybytes branding
-/// and a combination of typical defauls from Bootstrap and Material color
-/// schemes.
+/// <div style="background-color: hsl(0, 80%, 67%); border-radius: 4px; width: 50px; height: 50px"></div>
 /// @group Colors
-///
 $color-brand: hsl(0, 80%, 67%);
+
+/// <div style="background-color: hsl(217, 89%, 61%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
 $color-primary: hsl(217, 89%, 61%);
+
+/// <div style="background-color: hsl(280, 50%, 60%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
 $color-secondary: hsl(280, 50%, 60%);
+
+/// <div style="background-color: hsl(0, 0%, 94%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
 $color-light: hsl(0, 0%, 94%);
+
+/// <div style="background-color: hsl(0, 0%, 11%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
 $color-dark: hsl(0, 0%, 11%);
+
+/// <div style="background-color: hsl(144, 100%, 39%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
 $color-success: hsl(144, 100%, 39%);
+
+/// <div style="background-color: hsl(196, 77%, 55%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
 $color-info: hsl(196, 77%, 55%);
+
+/// <div style="background-color: hsl(0, 100%, 63%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
 $color-danger: hsl(0, 100%, 63%);
+
+/// <div style="background-color: hsl(40, 100%, 60%); border-radius: 4px; width: 50px; height: 50px"></div>
+/// @group Colors
 $color-warning: hsl(40, 100%, 60%);
+
 
 // --------------------------------------------------------------------
 // General Sizing
 // --------------------------------------------------------------------
-/// A modular scale for a sizing system. Default system uses a 1.25 (Major Third)
-/// @author Timothy Merritt
-/// @group Theme
-///
+// This is the default sizing scale system. Sizes are based around a 16px
+// base size with a 1.25 (Major Third) ratio for a pleasing consistency.
+// Change the $size-ratio variable to easy adjust sizes throughout your
+// project.
+// --------------------------------------------------------------------
+
+/// The base ratio that forms the increment of the sizing scale. Default
+/// is based on 1.25 Major Third interval.
+/// @group Sizing
 $size-ratio: 1.25;
+
+/// The base unit size that defines the rest of the sizing scale sizes.
+/// Default is 16px.
+/// @group Sizing
 $size-base: 16px !default;
+
+/// @group Sizing
 $size-1: $size-2 / $size-ratio;
+
+/// @group Sizing
 $size-2: $size-3 / $size-ratio;
+
+/// @group Sizing
 $size-3: $size-4 / $size-ratio;
+
+/// @group Sizing
 $size-4: $size-base;
+
+/// @group Sizing
 $size-5: $size-4 * $size-ratio;
+
+/// @group Sizing
 $size-6: $size-5 * $size-ratio;
+
+/// @group Sizing
 $size-7: $size-6 * $size-ratio;
+
+/// @group Sizing
 $size-8: $size-7 * $size-ratio;
+
+/// @group Sizing
 $size-9: $size-8 * $size-ratio;
+
+/// @group Sizing
 $size-10: $size-9 * $size-ratio;
+
+/// @group Sizing
 $size-11: $size-10 * $size-ratio;
+
+/// @group Sizing
 $size-12: $size-11 * $size-ratio;
 
-/// --------------------------------------------------------------------
+
+// --------------------------------------------------------------------
 // Font Families
-/// --------------------------------------------------------------------
-// $font-serif-heading:
-// $font-serif-body:
+// --------------------------------------------------------------------
 
-// $font-sans-heading: 'Fjalla One' // 400
-// $font-sans-body: 'Lato' // 300
+/// @group Typography
+$font-serif: 'Crimson Text', serif;
+/// @group Typography
+$font-sans: 'Lato', sans-serif;
+/// @group Typography
+$font-sans-heading: 'Fjalla One' // 400
+/// @group Typography
+$font-sans-body: 'Lato' // 300
+/// @group Typography
+$font-code: 'Source Code Pro', monospace;
 
-// $font-code:
-
-// Typography Sizing
-/// --------------------------------------------------------------------
-$type-base-font-size: 16px !default;

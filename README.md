@@ -18,6 +18,10 @@ One of SCSS’s best features is the ability to separate styles into [_partials_
 
 SCSS needs to be compiled into CSS before it can be recognized by a browser. If you use VS Code, I recommend using the [Live SASS Compiler extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) to compile your SCSS in real-time as you write it. You can also follow this [SASS preprocessing guide](https://www.freecodecamp.org/news/give-more-oompf-to-your-web-garnishes-with-preprocessors-in-sass-bd379226a114/) for compiling from the command line with Node.
 
+## Documentation
+
+SPLATE uses [SassDoc]() for creating SASS documentation. The `sassdoc/` directory contains initial documentation for the project. To compile new docs for changes you make to the source files, install with `npm install sassdoc`, and use by running `sassdoc [path to scss]` from the command line. SassDoc will overwrite the `sassdoc/` directory and you can view or deploy the included html file for reference.
+
 ## Contributing
 
 I’m not currently looking for contributions to SPLATE. However, if you feel something could be improved, feel free to submit an issue for discussion. Any and all ideas will be considered!
