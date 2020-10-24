@@ -1,3 +1,5 @@
+//https://obyford.com/posts/testing-sass-with-jest/
+// tests for SASS - https://www.sitepoint.com/creating-tests-sass-framework/, https://www.educative.io/blog/sass-tutorial-unit-testing-with-sass-true
 const util = require('util');
 
 const sass = require('node-sass');
