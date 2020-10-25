@@ -24,7 +24,7 @@ Temporary Items
 .apdisk
 
 # Workstation Settings
-!.vscode/
+.vscode/
 node_modules/
-dist
-.prettier
+dist/
+.prettierrc
