@@ -4,10 +4,11 @@
   "description": "Boilerplate SCSS",
   "main": "index.js",
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "copyfiles": "^2.4.0"
   },
   "scripts": {
-    "build": "cp -R src/scss/. dist/scss; cp src/**/*.html dist/",
+    "build": "copyfiles -u 1 './src/**/*.html' './src/scss/*' ./dist",
     "scss": "node-sass src/scss/main.scss -o dist/css/",
     "scss:watch": "node-sass --watch src/scss/main.scss -o dist/css/",
     "doc": "sassdoc src/scss",
