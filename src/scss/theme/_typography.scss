@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+code {
+  color: $color-dark;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-sans;
+  font-weight: 200;
+}
+
+p {
+  font-family: $font-sans;
+  font-weight: 300;
+  max-width: 65ch;
+  line-height: 1.4;
+}
+
+pre,
+code {
+  font-family: $font-code;
+}
+
+.title {
+  font-weight: 300;
+  font-size: $size-7;
+  margin: $size-4 auto 0;
+}
+
+.subtitle {
+  font-weight: 800;
+  font-size: $size-10;
+  margin: 0 auto $size-2;
+}
+
+.logo {
+  font-weight: 800;
+  color: $color-brand;
+  text-shadow: 1px 1px $color-dark;
+  letter-spacing: 1px;
+}
