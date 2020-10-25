@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
-  border: 0;
   line-height: 1.1;
   margin: 0;
-  padding: 0;
+  font-size: $size-base;
+}
+
+body {
+  padding: 35px;
 }

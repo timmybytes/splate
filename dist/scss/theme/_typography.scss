@@ -1,17 +1,14 @@
-// --------------------------------------------------------------------
-// Font Families
-// --------------------------------------------------------------------
-
-/// @group Typography
-$font-serif: 'Crimson Text', serif;
-/// @group Typography
-$font-sans: 'Lato', sans-serif;
-/// @group Typography
-$font-sans-heading: 'Fjalla One'; // 400
-/// @group Typography
-$font-sans-body: 'Lato'; // 300
-/// @group Typography
-$font-code: 'Source Code Pro', monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+code {
+  color: $color-dark;
+}
 
 h1,
 h2,
@@ -19,11 +16,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-sans-heading;
+  font-family: $font-sans;
+  font-weight: 200;
 }
 
 p {
-  font-family: $font-sans-body;
+  font-family: $font-sans;
+  font-weight: 300;
+  max-width: 65ch;
+  line-height: 1.4;
 }
 
 pre,
@@ -31,27 +32,21 @@ code {
   font-family: $font-code;
 }
 
-.font-xxsm {
-  font-size: $size-1;
-}
-.font-xsm {
-  font-size: $size-2;
-}
-.font-sm {
-  font-size: $size-3;
-}
-.font-md {
-  font-size: $size-4;
-}
-.font-lg {
-  font-size: $size-5;
-}
-.font-xlg {
-  font-size: $size-6;
-}
-.font-xxlg {
+.title {
+  font-weight: 300;
   font-size: $size-7;
+  margin: $size-4 auto 0;
 }
-.font-xxxlg {
-  font-size: $size-8;
+
+.subtitle {
+  font-weight: 800;
+  font-size: $size-10;
+  margin: 0 auto $size-2;
+}
+
+.logo {
+  font-weight: 800;
+  color: $color-brand;
+  text-shadow: 1px 1px $color-dark;
+  letter-spacing: 1px;
 }

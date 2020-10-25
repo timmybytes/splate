@@ -16,11 +16,51 @@ One of SCSS’s best features is the ability to separate styles into [_partials_
 
 ## Usage
 
-SCSS needs to be compiled into CSS before it can be recognized by a browser. If you use VS Code, I recommend using the [Live SASS Compiler extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) to compile your SCSS in real-time as you write it. You can also follow this [SASS preprocessing guide](https://www.freecodecamp.org/news/give-more-oompf-to-your-web-garnishes-with-preprocessors-in-sass-bd379226a114/) for compiling from the command line with Node.
+Clone SPLATE locally, and install dependencies (SPLATE uses `node-sass` for compiling):
+
+```sh
+git clone https://github.com/timmybytes/splate.git
+cd splate
+npm i
+```
+
+### Development
+
+**Compile SCSS into CSS**
+
+```sh
+# Compiled CSS goes in the `dist/` directory be default.
+$ npm run scss
+```
+
+**Compile SCSS live and watch for changes**
+
+```sh
+npm run scss:watch
+```
+
+**Copy all SCSS and HTML files from `src/` to `dist/`**
+
+```sh
+npm run build
+```
+
+**Generate SassDoc documentation**
+
+```sh
+# Outputs to `sassdoc/` in root by default.
+$ npm run doc
+```
+
+**Compile/copy SCSS and HTML from `src/`, and generate [SassDoc](http://sassdoc.com/) documentation**
+
+```sh
+npm run prod
+```
 
 ## Documentation
 
-SPLATE uses [SassDoc]() for creating SASS documentation. The `sassdoc/` directory contains initial documentation for the project. To compile new docs for changes you make to the source files, install with `npm install sassdoc`, and use by running `sassdoc [path to scss]` from the command line. SassDoc will overwrite the `sassdoc/` directory and you can view or deploy the included html file for reference.
+SPLATE uses [SassDoc](http://sassdoc.com/) for creating SASS documentation. The `sassdoc/` directory contains very basic initial documentation for the project. SassDoc will overwrite the `sassdoc/` directory each time it's generated and you can view or deploy the included html file for reference.
 
 ## Contributing
 
@@ -29,11 +69,3 @@ I’m not currently looking for contributions to SPLATE. However, if you feel so
 ## License
 
 This project is licensed under the [MIT License](./LICENSE.md). SPLATE is just a bunch of files—fork, tweak, and destroy them as you see fit.
-
----
-
-### To Do
-
-- Add basic baked-in variables, mixins, etc., to plug root values
-- Add tests
-- Add documentation for compiling

@@ -1,3 +1,7 @@
+// Example function which halves a number, checking for
+// correct input type and whether number can be evenly halved.
+// Note: @error and @warn, if triggered, display in the
+// terminal output.
 @function half($number) {
   @if not(type-of($number) == 'number') {
     @error "Cannot half something which is not a number!";

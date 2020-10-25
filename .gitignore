@@ -27,6 +27,6 @@ Temporary Items
 .apdisk
 
 # Workstation Settings
-.vscode/
-
-/node_modules
+/.vscode/
+node_modules/
+/dist

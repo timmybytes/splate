@@ -1,7 +1,9 @@
-/// Resets and shameful hacks
-// ---------------------------------------
-@import './config/resets';
-@import './config/shame';
+// Opinionated SASS Guide
+// https://sass-guidelin.es/#variables
+// SASS Boilerplate
+// https://github.com/HugoGiraudel/sass-boilerplate
+// SASSDOC
+// http://sassdoc.com/annotations/#description
 
 /// Project
 // ---------------------------------------
@@ -14,6 +16,11 @@
 @import './theme/colors';
 @import './theme/sizing';
 @import './theme/typography';
+
+/// Resets and shameful hacks
+// ---------------------------------------
+@import './config/resets';
+@import './config/shame';
 
 /// Optional libraries (Bootstrap, etc.)
 // ---------------------------------------
@@ -30,7 +37,6 @@
 /// Layout
 // ---------------------------------------
 @import './layout/layout';
-@import './layout/grid';
 @import './layout/navbar';
 @import './layout/header';
 @import './layout/footer';

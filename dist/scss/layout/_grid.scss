@@ -1,0 +1,11 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: $size-3 2fr 1fr $size-3;
+  grid-template-rows: $size-3 repeat(3, 1fr) $size-3;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.grid-child {
+  grid-column: 2;
+}

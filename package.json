@@ -3,17 +3,15 @@
   "version": "1.0.0",
   "description": "Boilerplate SCSS",
   "main": "index.js",
-  "dependencies": {
-    "node-sass": "^4.14.1",
-    "sass-true": "^6.0.1"
+  "devDependencies": {
+    "node-sass": "^4.14.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cp -R src/scss/. dist/scss",
-    "scss": "node-sass src/scss/main.scss -o dist/css/main.css",
-    "scss:watch": "node-sass --watch src/scss/main.scss -o dist/css/main.css",
-    "deploy": "npm run build && npm run scss"
+    "build": "cp -R src/scss/. dist/scss; cp src/**/*.html dist/",
+    "scss": "node-sass src/scss/main.scss -o dist/css/",
+    "scss:watch": "node-sass --watch src/scss/main.scss -o dist/css/",
+    "doc": "sassdoc src/scss",
+    "prod": "npm run build && npm run scss && npm run doc"
   },
   "repository": {
     "type": "git",
