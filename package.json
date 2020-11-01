@@ -1,17 +1,17 @@
 {
   "name": "splate",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Boilerplate SCSS",
   "main": "index.js",
   "devDependencies": {
     "copyfiles": "^2.4.0",
-    "node-sass": "^4.14.1",
+    "sass": "^1.28.0",
     "sassdoc": "^2.7.3"
   },
   "scripts": {
-    "build": "copyfiles -u 1 './src/**/*.html' './src/scss/*' ./dist",
-    "scss": "node-sass src/scss/main.scss -o dist/css/",
-    "scss:watch": "node-sass --watch src/scss/main.scss -o dist/css/",
+    "build": "copyfiles -u 1 './src/**/*.html' './src/scss/**/*.scss' ./dist",
+    "scss": "sass --style=compressed src/scss:dist/css",
+    "scss:watch": "sass --watch src/scss/:dist/css/",
     "doc": "sassdoc src/scss",
     "prod": "npm run build && npm run scss && npm run doc"
   },

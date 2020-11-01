@@ -1,6 +1,7 @@
 // --------------------------------------------------------------------
 // Font Families
 // --------------------------------------------------------------------
+// See also:
 // Font scale - https://www.layoutgridcalculator.com/typographic-scale/
 // Modular Type scale - https://webdesign.tutsplus.com/articles/how-to-establish-a-modular-typographic-scale--webdesign-14927
 
@@ -76,6 +77,7 @@ $size-ratio: 1.25;
 
 /// The base unit size that defines the rest of the sizing scale sizes.
 /// Default is 16px.
+/// <div style="font-size: $size-9">This is the base size</div>
 /// @group Sizing
 $size-base: 16px !default;
 

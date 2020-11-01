@@ -4,6 +4,10 @@
 
 **Splate** is an **S**CSS boiler**plate** (*S+plate*) for use in styling frontend web development projects. It’s based on the [7-1](https://sass-guidelin.es/) SCSS format. Splate keeps your styles neat and tidy, and provides leeway for adding your own custom rules, with easy compiling and documentation creation.
 
+## Version 2.0.0
+
+Splate now uses `sass` ([Dart SASS](https://www.npmjs.com/package/sass)) for compiling SCSS, replacing the [now deprecated](https://sass-lang.com/blog/libsass-is-deprecated) `node-sass`.
+
 ## What is ‘SCSS’?
 
 [SCSS](https://sass-lang.com/documentation/syntax) (Sassy CSS) is a syntax style for SASS (Syntactically Awesome Style Sheets), which is itself an extension language for CSS. What does any of that mean? Webpages and web-based projects are styled with CSS, and while much can be achieved with default CSS, SCSS allows for more dynamic stylesheets that are easier to maintain, and add deeper programmatic functionality with utilities like variables, modules, nesting, and functions.
@@ -18,7 +22,7 @@ To use Splate in your project, clone the repo, write your preferred styles in th
 
 ### Clone Splate locally, and install dependencies
 
-Splate uses [`node-sass`](https://github.com/sass/node-sass) for compiling, [`copyfiles`](https://www.npmjs.com/package/copyfiles) for cross-platform file copying, and [`sassdoc`](https://www.npmjs.com/package/sassdoc) for creating a complete documentation site for your SCSS.
+Splate uses [`sass`](https://www.npmjs.com/package/sass) (Dart SASS) for compiling, [`copyfiles`](https://www.npmjs.com/package/copyfiles) for cross-platform file copying, and [`sassdoc`](https://www.npmjs.com/package/sassdoc) for creating a complete documentation site for your SCSS.
 
 ```sh
 git clone https://github.com/timmybytes/splate.git
