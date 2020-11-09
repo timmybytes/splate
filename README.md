@@ -4,6 +4,8 @@
 
 **Splate** is an **S**CSS boiler**plate** (*S+plate*) for use in styling frontend web development projects. It’s based on the [7-1](https://sass-guidelin.es/) SCSS format. Splate keeps your styles neat and tidy, and provides leeway for adding your own custom rules, with easy compiling and documentation creation via [SassDoc](http://sassdoc.com/).
 
+[View Splate Documentation](https://timmybytes.github.io/splate/)
+
 ## Version 2.0.0
 
 Splate now uses `sass` ([Dart SASS](https://www.npmjs.com/package/sass)) for compiling SCSS, replacing the [now deprecated](https://sass-lang.com/blog/libsass-is-deprecated) `node-sass`.
