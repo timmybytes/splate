@@ -2,7 +2,7 @@
 
 ![Splate header](./readme-images/splate.png)
 
-**Splate** is an **S**CSS boiler**plate** (*S+plate*) for use in styling frontend web development projects. It’s based on the [7-1](https://sass-guidelin.es/) SCSS format. Splate keeps your styles neat and tidy, and provides leeway for adding your own custom rules, with easy compiling and documentation creation.
+**Splate** is an **S**CSS boiler**plate** (*S+plate*) for use in styling frontend web development projects. It’s based on the [7-1](https://sass-guidelin.es/) SCSS format. Splate keeps your styles neat and tidy, and provides leeway for adding your own custom rules, with easy compiling and documentation creation via [SassDoc](http://sassdoc.com/).
 
 ## Version 2.0.0
 
