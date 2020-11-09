@@ -52,7 +52,7 @@ npm run build
 
 ### Generate SassDoc documentation
 
-Outputs to `sassdoc/` in root by default. [See below](#SassDoc) for further instructions.
+Outputs to `docs/` in root. [See below](#SassDoc) for further instructions.
 
 ```sh
 npm run doc

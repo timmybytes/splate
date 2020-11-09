@@ -11,8 +11,8 @@
   "scripts": {
     "build": "copyfiles -u 1 './src/**/*.html' './src/scss/**/*.scss' ./dist",
     "scss": "sass --style=compressed src/scss:dist/css",
-    "scss:watch": "sass --watch src/scss/:dist/css/",
-    "doc": "sassdoc src/scss",
+    "scss:watch": "sass --watch --style=compressed src/scss/:dist/css/",
+    "doc": "sassdoc src/scss -d docs/",
     "prod": "npm run build && npm run scss && npm run doc"
   },
   "repository": {
