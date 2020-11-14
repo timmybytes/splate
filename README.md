@@ -3,7 +3,8 @@
 </h1>
 
 <div align="center">
-  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/timmybytes/splate">
+  <img src="https://img.shields.io/github/package-json/v/timmybytes/splate" alt="GitHub package.json version" />
+  <img src="https://scrutinizer-ci.com/g/timmybytes/splate/badges/quality-score.png?b=main" alt="Scrutinizer badge" />
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/timmybytes/splate">
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/timmybytes/splate">
 </div>
