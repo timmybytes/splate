@@ -1,6 +1,23 @@
-# Splate
+<h1 align="center">
+  <img src="./readme-images/splate-logo.png" alt="Splate logo" />
+</h1>
 
-![Splate header](./readme-images/splate.png)
+<div align="center">
+  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/timmybytes/splate">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/timmybytes/splate">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/timmybytes/splate">
+</div>
+
+<div align="center">
+  <strong>An SCSS Boilerplate</strong>
+</div>
+
+<p align="center">
+  <sub>Built with ❤︎ by
+  <a href="https://timmybytes">Timothy Merritt</a>
+</div>
+
+
 
 **Splate** is an **S**CSS boiler**plate** (*S+plate*) for use in styling frontend web development projects. It’s based on the [7-1](https://sass-guidelin.es/) SCSS format. Splate keeps your styles neat and tidy, and provides leeway for adding your own custom rules, with easy compiling and documentation creation via [SassDoc](http://sassdoc.com/).
 
