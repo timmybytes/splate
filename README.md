@@ -15,7 +15,7 @@
 
 <p align="center">
   <sub>Built with ❤︎ by
-  <a href="https://timmybytes">Timothy Merritt</a>
+  <a href="https://timmybytes.com">Timothy Merritt</a>
 </div>
 
 
